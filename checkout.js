@@ -101,5 +101,5 @@ function calcularInteres(cuotas) {
 function pagar() {
     alert('Pago realizado con éxito. Su producto será despachado pronto.');
     localStorage.removeItem('checkoutData');
-    window.location.href = 'index.html';
+    window.location.href = '../index.html';
 }
